@@ -1,0 +1,26 @@
+const getters = {
+  sidebar: state => state.app.sidebar,
+  device: state => state.app.device,
+  token: state => state.user.token,
+  avatar: state => state.user.avatar,
+  username: state => state.user.username,
+  email: state => state.user.email,
+  deviceNum: state => state.user.deviceNum,
+  onlineNum: state => state.user.onlineNum,
+  alertNum: state => state.user.alertNum,
+  MQTTMsgNum: state => state.user.MQTTMsgNum,
+  dateList: state => state.user.dateList,
+  hourList: state => state.user.hourList,
+  deviceNumList: state => state.user.deviceNumList,
+  onlineNumList: state => state.user.onlineNumList,
+  alertNumList: state => state.user.alertNumList,
+  MQTTMsgNumList: state => state.user.MQTTMsgNumList,
+  sensorNum: state => state.user.sensorNum,
+  actuatorNum: state => state.user.actuatorNum,
+  embeddedNum: state => state.user.embeddedNum,
+  communicationNum: state => state.user.communicationNum,
+  controllerNum: state => state.user.controllerNum,
+  MQTTMsgList: state => state.user.MQTTMsgList,
+  deviceList: state => state.user.deviceList
+}
+export default getters
